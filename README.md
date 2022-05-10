@@ -4,7 +4,7 @@
 2. It was invented in 1995 at Netscape Corporation.
 
 
-#What can Javascript do?
+# What can Javascript do?
 Javascript can:
   1. dynamically modify HTML content
   2. validate user input
