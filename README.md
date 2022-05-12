@@ -30,10 +30,29 @@ Framework and Library has one difference that is 'inversion of Control'.
 
 ## Functions in JS
 #### 1- alert()
-      alret user to tell him that something just happended. Example: 
+      //alret user to tell him that something just happended. Example: 
       <script type="text/javascript">
         alert("Namaste Janab");
       </script>
 #### 2- confirm()
-      alret user to tell him that something just happended
+      //opens up confirm/cancel dialog and returns true/false depending on user's click.
+      <script type="text/javascript">
+        confirm("Wanna Go Ahead?");
+      </script>      
+#### 3- console.log()
+      //Writes information to the console of the browser. It is mostly used for debugging purpose. 
+      <script type="text/javascript">
+        console.log("Namaste Janab");
+      </script>      
+#### 4- document.write()
+      //Writes directly to HTML document.
+      <script type="text/javascript">
+        document.write("Namaste Janab");
+      </script>      
+#### 5- prompt(msg,default)
+      //creates a dialog for user input.
+      <script type="text/javascript">
+        confirm("Namaste" , "Janab");
+      </script>
 
+## Variables in JS
