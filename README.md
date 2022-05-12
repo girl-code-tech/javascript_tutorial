@@ -29,5 +29,8 @@ Framework and Library has one difference that is 'inversion of Control'.
   2- External:  <script src='myscript.js'></script>
 
 ## Functions in JS
-### 1- alert()
+#### 1- alert()
+      alret user to tell him that something just happended. Example: <script
+#### 2- confirm()
+      alret user to tell him that something just happended
 
