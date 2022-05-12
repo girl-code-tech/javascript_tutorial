@@ -56,3 +56,6 @@ Framework and Library has one difference that is 'inversion of Control'.
       </script>
 
 ## Variables in JS
+  1- Variables are containers which hold reusable data
+  2- It is the basic unit of storage in program
+  3- The value stored in a variable can be changed during program execution.
