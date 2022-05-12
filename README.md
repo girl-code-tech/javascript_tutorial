@@ -17,3 +17,8 @@ Javascript can:
   1. Supported by all major browsers.
   2. Complex things are done easier
   3. Full integration with HTML and CSS
+
+# Framework vs Library
+Framework and Library has one difference that is 'inversion of Control'.
+Library : When we invoke some method from library, we are in control of the methd.
+Framework: But when we use framework, the framework call us and control is inverted.
