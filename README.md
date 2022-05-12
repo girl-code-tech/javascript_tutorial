@@ -20,5 +20,6 @@ Javascript can:
 
 # Framework vs Library
 Framework and Library has one difference that is 'inversion of Control'.
-Library : When we invoke some method from library, we are in control of the methd.
-Framework: But when we use framework, the framework call us and control is inverted.
+Library : When we invoke some method from library, we are in control of the methd. Libraries are not that much large code e.g, Senior developer creates code of timer function and you use it as  Junior developer. For example: Angular, Jquery, Node.js, Ext.js, Aurelia.
+Framework: But when we use framework, the framework call us and control is inverted. Code structure is converted to modules. React, Vue.js, Ember.js, Polymer, Backbone.js. 
+
