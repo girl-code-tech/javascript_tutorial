@@ -24,3 +24,10 @@ Framework and Library has one difference that is 'inversion of Control'.
   2. Framework: But when we use framework, the framework call us and control is inverted. Large code structure is converted to modules. Example: React, Ember.js, Vue.js, Polymer, Backbone.js
 
 
+## Internal Javascript vs External Javascript
+Internal: JS can be inserted into documents using Script tag using which a block is created to write JS programs.
+External:  <script src='myscript.js'></script>
+
+# Functions in JS
+
+
