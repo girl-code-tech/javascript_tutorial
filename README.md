@@ -30,7 +30,10 @@ Framework and Library has one difference that is 'inversion of Control'.
 
 ## Functions in JS
 #### 1- alert()
-      alret user to tell him that something just happended. Example: <script
+      alret user to tell him that something just happended. Example: 
+      <script type="text/javascript">
+        alert("Namaste Janab");
+      </script>
 #### 2- confirm()
       alret user to tell him that something just happended
 
