@@ -72,3 +72,12 @@ Framework and Library has one difference that is 'inversion of Control'.
       var z = x+y
       alert(z);
     </script>
+
+## Operators and Types of Operators in JS
+Operator is a symbol that tells which operation to be performed.
+    <script>
+      var x = "Hello Everyone"
+      var y = "Everyone"
+      var z = x+y
+      alert(z);
+    </script>
