@@ -74,10 +74,80 @@ Framework and Library has one difference that is 'inversion of Control'.
     </script>
 
 ## Operators and Types of Operators in JS
-Operator is a symbol that tells which operation to be performed.
+##### Operator is a symbol that tells which operation to be performed.
+### typeof()
+    <p>The typeof operator returns the type of a variable, object, function or expression:</p>
+    <p id="demo"></p>
     <script>
-      var x = "Hello Everyone"
-      var y = "Everyone"
-      var z = x+y
-      alert(z);
+      document.getElementById("demo").innerHTML = 
+      typeof "John" + "<br>" +
+      typeof 3.14 + "<br>" +
+      typeof NaN + "<br>" +
+      typeof false + "<br>" +
+      typeof [1, 2, 3, 4] + "<br>" +
+      typeof {name:'John', age:34} + "<br>" +
+      typeof new Date() + "<br>" +
+      typeof function () {} + "<br>" +
+      typeof myCar + "<br>" +
+      typeof null;
     </script>
+
+### delete
+    <p>The delete operator deletes a property from an object:</p>
+    <p id="demo"></p>
+
+    <script>
+    const person = {
+      firstname:"John",
+      lastname:"Doe",
+      age:50,
+      eyecolor:"blue"
+    };
+
+    delete person.age;
+
+### in 
+    <p>The in operator returns true if the specified property is in the specified object:</p>
+    <p id="demo"></p>
+    <script>
+    const cars = ["Saab", "Volvo", "BMW"];
+    // Objects
+    const person = {firstName:"John", lastName:"Doe", age:50};
+    document.getElementById("demo").innerHTML =
+    ("Saab" in cars) + "<br>" + 
+    (0 in cars) + "<br>" +
+    (1 in cars) + "<br>" +
+    (4 in cars) + "<br>" +
+    ("length" in cars) + "<br>" +
+
+    ("firstName" in person) + "<br>" +
+    ("age" in person) + "<br>" +
+
+    // Predefined objects
+    ("PI" in Math) + "<br>" +
+    ("NaN" in Number) + "<br>" +
+    ("length" in String);
+    </script>
+    
+### instance of
+    <p>The instanceof operator returns true if the specified object is an instance of the specified object.</p>
+    <p id="demo"></p>
+    <script> 
+    const cars = ["Saab", "Volvo", "BMW"];
+    document.getElementById("demo").innerHTML =
+    (cars instanceof Array) + "<br>" + 
+    (cars instanceof Object) + "<br>" +
+    (cars instanceof String) + "<br>" +
+    (cars instanceof Number);
+    </script>
+
+ ### void: The void operator evaluates an expression and returns undefined. This operator is often used to obtain the undefined primitive value, using "void(0)" (useful when evaluating an expression without using the return value).
+    <p>
+    <a href="javascript:void(0);">Useless link</a>
+    </p>
+
+    <p>
+    <a href="javascript:void(document.body.style.backgroundColor='red');">
+    Click me to change the background color of body to red.</a>
+    </p>
+
