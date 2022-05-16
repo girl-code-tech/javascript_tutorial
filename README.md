@@ -214,5 +214,5 @@ Declaration of array in JS:
 1. execute code block as long as condition is true, but once the condition becomes false, the loop terminates
 2. also called entry control loop
 
-##Some Array Method	
+## Some Array Method	
 ![Untitled](https://user-images.githubusercontent.com/64399150/168569652-5de0b7e5-f5a2-4e24-a352-0d939008f930.png)
