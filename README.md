@@ -196,5 +196,21 @@ Declaration of array in JS:
 	document.write("Loop Ended");
 
 	</script>
-
-    
+	
+## While Loop
+	<script type="text/javascript">
+	var i = 0;
+	while (i < 10)
+	{ document.write(i+"<br/>");
+	i++;
+	}
+	document.write("Loop Ended");
+	var i = 10;
+	while (i > 0)
+	{ document.write(i+"<br/>");
+	i--;
+	}
+	</script>
+1. execute code block as long as condition is true, but once the condition becomes false, the loop terminates
+2. also called entry control loop
+	
