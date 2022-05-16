@@ -151,4 +151,15 @@ Framework and Library has one difference that is 'inversion of Control'.
     Click me to change the background color of body to red.</a>
     </p>
 
-## 
+## How to get the data using promt function
+    <body>
+      Name: <i id="result"></i>
+      <br/>
+      <button onclick="call()">Call</button>
+    </body>
+    <script type="text/javascript">
+      function call(){
+      var name = prompt("Hey, what's your name", "");
+      document.getElementById('result').innerHTML = name;             
+      }
+    </script>
