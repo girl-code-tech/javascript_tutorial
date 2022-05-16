@@ -216,3 +216,5 @@ Declaration of array in JS:
 
 ## Some Array Method	
 ![Untitled](https://user-images.githubusercontent.com/64399150/168569652-5de0b7e5-f5a2-4e24-a352-0d939008f930.png)
+
+## typeof
