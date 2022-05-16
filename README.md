@@ -189,6 +189,12 @@ Declaration of array in JS:
 	document.write(car[2]);
     </script>
    
-    
+## Loop in JS
+	<script type="text/javascript">
+	for (var count=10; count>0; count--)
+	{ document.write(count+"<br/>");}
+	document.write("Loop Ended");
+
+	</script>
 
     
