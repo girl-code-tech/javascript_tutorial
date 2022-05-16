@@ -163,3 +163,32 @@ Framework and Library has one difference that is 'inversion of Control'.
       document.getElementById('result').innerHTML = name;             
       }
     </script>
+
+## Array in JS
+Group of data stored in contiguous memory location.
+Declaration of array in JS: 
+#### Method1
+    var house = []
+    var house = ["1BHK", "2BHK", "3BHK"]
+    house[0] = "1BHK"
+    house[1] = "2BHK"
+    house[2] = "3BHK"
+#### Method2
+    var house = new Array()
+    var house = new array("1BHK", "2BHK", "3BHK")
+    var house = new array(10,20,30)
+#### Code
+    <script type="text/javascript">
+	var cars = [];
+	cars = ["my_car" , "your_car" , "his_car"];
+	document.write(cars[1]);
+	document.write("<br/>");
+
+	var car = new Array();
+	car = ["my_car" , "your_car" , "his_car"];
+	document.write(car[2]);
+    </script>
+   
+    
+
+    
