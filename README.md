@@ -1,7 +1,6 @@
 # JavaScript Tutorial
 
-1. It is interpreted, client-side (runs on user browser), event-based, OO scripting ( Scripting languages are those interpreted (X not compiled) languages which are directly converted to machine learning code.),  case senseitiv language.  ![Untitled](https://user-images.githubusercontent.com/64399150/168569652-5de0b7e5-f5a2-4e24-a352-0d939008f930.png)
-
+1. It is interpreted, client-side (runs on user browser), event-based, OO scripting ( Scripting languages are those interpreted (X not compiled) languages which are directly converted to machine learning code.),  case senseitiv language. 
 2. It was invented in 1995 at Netscape Corporation.
 
 
@@ -214,4 +213,6 @@ Declaration of array in JS:
 	</script>
 1. execute code block as long as condition is true, but once the condition becomes false, the loop terminates
 2. also called entry control loop
-	
+
+##Some Array Method	
+![Untitled](https://user-images.githubusercontent.com/64399150/168569652-5de0b7e5-f5a2-4e24-a352-0d939008f930.png)
